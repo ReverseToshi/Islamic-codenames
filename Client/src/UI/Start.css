@@ -1,0 +1,60 @@
+.Start-page{
+    text-align: center;
+    margin: 10vh auto;
+    height:70vh;
+    width: 70vw;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: black;
+}
+
+.Start-page h1{
+    font-size: 4rem;
+    color: white;
+}
+
+.Create-Join-container{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 10vh;
+}
+
+.Create-Join-container .divider{
+    width: 2px;
+    background-color: white;
+    height: 30vh;
+    align-self: center;
+}
+
+.Create-Join-container button{
+    width: 7vw;
+    height: 5vh;
+    font-size: 1.25rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #61dafb;
+    color: black;
+    font-weight: bold;
+    margin: 1vh 1vw;
+}
+
+.Create-Join-container button:hover{
+    background-color: #21a1f1;
+}
+
+.Create-Join-container label{
+    font-size: 1.5rem;
+    color: white;
+    margin:1vh 1vw;
+}
+
+.Create-Join-container input{
+    width: 10vw;
+    height: 4vh;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin:1vh 1vw;
+}
